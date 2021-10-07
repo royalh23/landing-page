@@ -68,6 +68,7 @@ a {
   color: #E5E7EB;
   margin-top: 20px;
   padding: 10px 20px;
+  cursor: pointer;
 }
 
 .site-logo {
@@ -150,24 +151,24 @@ div.center {
 
 .button-2 {
   padding: 5px 20px;
-  flex-shrink: 0;
   background: #3882F6;
   border: 3px solid white;
   border-radius: 5px;
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 350px;
+  flex-wrap: wrap;
   flex: 1;
   background: #3882F6; 
   margin-left: 200px;
   margin-right: 200px;
-  padding: 50px 70px;
+  padding: 50px 110px;
 }
 
 .text {

@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background-color: black;
 }
 
 .head {
@@ -15,7 +17,46 @@ body {
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 800;
+}
+
+.information-header {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    height: 450px;
+}
+
+.information-text {
+    width: 450px;
+}
+
+.information-text button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: 0 solid #3882F6;
+    width: 130px;
+    height: 40px;
+    margin-top: 12px;
+    color: #F9FAF8;
     font-weight: bold;
+    font-size: 18px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.information-img {
+    height: 210px;
+    width: 470px;
 }
 
 .center {

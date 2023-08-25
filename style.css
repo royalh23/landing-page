@@ -6,16 +6,19 @@ body {
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 .head {
     background-color: #1F2937;
-    height: 524px;
+    flex: 1;
 }
 
 .head-container {
     display: flex;
     flex-direction: column;
+    height: 524px;
 }
 
 .header {
@@ -90,13 +93,14 @@ a {
 }
 
 .second-section {
-    height: 524px;
+    flex: 1;
     background-color: white;
 }
 
 .second-section-container {
     display: flex;
     flex-direction: column;
+    height: 524px;
 }
 
 .second-section-title {
@@ -135,13 +139,14 @@ a {
 
 .third-section {
     background-color: #E5E7EB;
-    height: 524px;
+    flex: 1;
 }
 
 .third-section-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 524px;
 }
 
 .quote {
@@ -162,6 +167,7 @@ a {
 
 .fourth-section {
     background-color: white;
+    flex: 1;
 }
 
 .fourth-section-container {

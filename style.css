@@ -57,6 +57,7 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 8px;
 }
 
 .hero-secondary {
@@ -149,6 +150,7 @@ a {
     font-style: italic;
     color: #1F2937;
     width: 810px;
+    text-align: center;
 }
 
 .quote-author {
@@ -156,4 +158,50 @@ a {
     justify-content: flex-end;
     font-size: 24px;
     font-weight: bold;
+}
+
+.fourth-section {
+    background-color: white;
+}
+
+.fourth-section-container {
+    background-color: #3882F6;
+    margin: 140px 0;
+    padding: 50px 140px;
+    display: flex;
+    align-items: center;
+    gap: 180px;
+    border-radius: 10px;
+}
+
+.fourth-section-main {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.fourth-section-sec {
+    color: #E5E7EB;
+}
+
+.fourth-section-container button {
+    width: 130px;
+    height: 40px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
